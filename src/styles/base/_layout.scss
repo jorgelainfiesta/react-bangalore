@@ -1,0 +1,21 @@
+$enable-flex: true;
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid.scss';
+
+$col-sizes: 1 2 3 4 5 6 7 8 9 10 11 12;
+
+@each $size in $col-sizes {
+  .col-md-#{$size} {
+    box-sizing: border-box;
+  }
+  .col-lg-#{$size} {
+    box-sizing: border-box;
+  }
+}
+
+@mixin clearfix() {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

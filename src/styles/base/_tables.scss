@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 10px;
+
+  th,
+  td {
+    padding: 10px;
+    vertical-align: top;
+    border-top: 1px solid $main-color;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: (2 * 1px) solid $main-color;
+  }
+
+  tbody + tbody {
+    border-top: (2 * 1px) solid $main-color;
+  }
+
+  .table {
+    background-color: #fff;
+  }
+}

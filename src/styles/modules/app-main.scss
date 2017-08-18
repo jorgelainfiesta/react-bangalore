@@ -1,0 +1,22 @@
+@import '../base/all';
+
+body {
+  @include body-copy();
+}
+
+h2 {
+  @include title-type;
+  margin-top: unit-space(2);
+}
+
+p {
+  margin-top: unit-space(1);
+}
+
+.subtitle, h3 {
+  @include body-copy();
+  font-weight: 600;
+  color: $main-color;
+  text-transform: uppercase;
+  margin-top: unit-space(2);
+}

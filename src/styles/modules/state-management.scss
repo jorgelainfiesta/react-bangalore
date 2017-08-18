@@ -1,0 +1,8 @@
+@import '../base/variables';
+
+.state-container {
+  h3 {
+    color: $action-color;
+    margin-bottom: unit-space(1);
+  }
+}
