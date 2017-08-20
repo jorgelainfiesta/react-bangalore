@@ -1,5 +1,5 @@
 import * as React from 'react';
-import ImageGallery from '../components/image-gallery';
+import ImageSlider from '../components/image-slider';
 
 const imageSources: string[] = [
     '/images/capitan.png',
@@ -13,7 +13,7 @@ export default function() {
         <div className="container">
             <h2>Image Slider</h2>
 
-            <ImageGallery images={imageSources} />
+            <ImageSlider images={imageSources} />
         </div>
     );
 }

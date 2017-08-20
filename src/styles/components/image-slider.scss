@@ -1,0 +1,19 @@
+.image-slider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    img {
+        max-width: 100%;
+    }
+    .button {
+        font-size: 18px;
+        margin: 0 10px;
+        display: inline-block;
+    }
+    .row {
+        justify-content: center;
+    }
+    nav {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
